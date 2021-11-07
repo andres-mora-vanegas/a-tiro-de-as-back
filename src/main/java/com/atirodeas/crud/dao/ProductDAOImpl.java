@@ -102,5 +102,9 @@ public class ProductDAOImpl implements IProductDAO {
 		productRepository.delete(product);
 
 	}
+	
+	public void deleteAll() {
+		productRepository.deleteAll();
+	}
 
 }
